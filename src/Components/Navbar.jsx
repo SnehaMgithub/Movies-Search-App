@@ -116,13 +116,13 @@ const Navbar = () => {
           </button>
         </div>
       </form>
-      <div className="mr-36 hover:text-blue-300">
-        <Link to="/favorite">Favorite</Link>
+      <div className="mr-36 hover:text-blue-300 font-serif">
+        <Link to="/favorite">Favorites</Link>
       </div>
    <div className="relative inline-block w-64">
   <label htmlFor="options" className="block text-sm font-medium text-gray-700 mb-1">Pick a type of movie:</label>
   <select id="options" name="options"
-        className="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+        className="block w-full pl-3 pr-10 py-2 font-serif text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
         onChange={handleChange}
         defaultValue="" >
     <option value="option1" >Movies</option>
